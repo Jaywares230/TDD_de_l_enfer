@@ -1,0 +1,19 @@
+<h1>Welcome to the THP Club mon chou </h1>
+
+<ul> 
+	<%if user_signed_in? %>
+	<li>
+	<%= link_to "Se deconnecter", destroy_user_session_path, method: :delete %>
+	</li>
+	<li>
+		<%= current_user.email %>
+	</li>
+	<% else %>
+	<li>
+		<%= link_to "Se connecter", new_user_session_path %>
+	</li>
+	<li>
+		<%= link_to "Créer un compte", new_user_registration_path %>
+	</li>
+	<% end %>
+	</ul> 
