@@ -1,24 +1,29 @@
-# README
+# Hallo bienvenue dans le TDD de l'enfer 
+Alors en faite y'as pas de TDD :) 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Pourquoi 
+gros problème de versions ruby  qui ont ensuite découlé avec un uninstall de ruby après impossible de reinstaller bref grosse galère mais grace a @bab ruby a été réparé je t'aime bab <3 c:
 
-Things you may want to cover:
 
-* Ruby version
+# Donc y'a quoi dedans ? 
 
-* System dependencies
+* Le club THP des coquinous lapins
+Bon tout fonctionne bien 
 
-* Configuration
+* Devise
+Ok
 
-* Database creation
+* Ajout de first_name et last_name a Devise
+Ok
 
-* Database initialization
+* acces aux users denied si pas connecter 
+Ok
 
-* How to run the test suite
+* Craquage nerveux
+En cours 
 
-* Services (job queues, cache servers, search engines, etc.)
+# Des bisous soyez indulgents j'vous AIME PUTAIN <3 @Jayware / Miguel Sorin
 
-* Deployment instructions
 
-* ...
+
+* Fais par amour par Miguel Sorin @Jayware / Leo legeoff @Lordkayseur / Leo Deboin @LeoD
