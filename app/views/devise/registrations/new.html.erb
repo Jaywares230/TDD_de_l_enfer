@@ -5,11 +5,11 @@
 
 
    <div class="field">
-    <%= f.label :first_name %><br />
+    <%= f.label :prénom %><br />
     <%= f.text_field :first_name, autocomplete: "off"   %>
   </div>  
  <div class="field">
-    <%= f.label :last_name %><br />
+    <%= f.label :nom %><br />
     <%= f.text_field :last_name, autocomplete: "off"   %>
   </div>  
 
@@ -19,7 +19,7 @@
   </div>
 
   <div class="field">
-    <%= f.label :password %>
+    <%= f.label :mot_de_passe %>
     <% if @minimum_password_length %>
     <em>(<%= @minimum_password_length %> characters minimum)</em>
     <% end %><br />
@@ -27,7 +27,7 @@
   </div>
 
   <div class="field">
-    <%= f.label :password_confirmation %><br />
+    <%= f.label :confirmez_votre_mot_de_passe %><br />
     <%= f.password_field :password_confirmation, autocomplete: "off" %>
   </div>
 
